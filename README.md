@@ -1,11 +1,4 @@
-# ARCHIVED
-## Alethio is no longer operating so the software stack offered here is no longer maintained. Feel free to fork and continue if anything looks useful.
-
-# ethstats-network-server
-
-> EthStats - Server
->
-> The server collects/stores/aggregates data sent through `ethstats-cli`.
+NXTreme dashboard
 
 ## Requirements
 
@@ -118,18 +111,6 @@ or
 ```sh
 docker run -d alethio/ethstats-network-server:latest
 ```
-If used from the docker hub image, configs can pe passed through env vars. For available env vars see [.env.sample](https://github.com/Alethio/ethstats-network-server/tree/master/.env.sample).
-
-## DB Migrations
-
-Migrations are done through `cqlsh`.
-
-Path: [/db/cassandra/migrations](https://github.com/Alethio/ethstats-network-server/tree/master/db/cassandra/migrations)
-
-## Changelog
-
-Please see [changelog](CHANGELOG.md) file for all notable changes to this project.
-
 ## License
 
-MIT &copy; [Alethio](https://aleth.io)
+MIT &copy; 
