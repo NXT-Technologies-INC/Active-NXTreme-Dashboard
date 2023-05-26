@@ -18,23 +18,6 @@ Cluster mode additions:
 >
 > Kafka >= 0.11 (https://kafka.apache.org/downloads)
 
-## Installation
-
-```sh
-git clone https://github.com/Alethio/ethstats-network-server.git
-npm install
-```
-
-## Update
-
-To update the server just do a "git pull" and restart the app.
-
-## Usage
-
-```sh
-./bin/app.js
-```
-
 ## Shell options
 
 ```sh
